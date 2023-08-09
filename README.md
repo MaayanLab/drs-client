@@ -21,9 +21,9 @@ with drs_client.open('drs://hostname/opaque_id') as res:
 
 # save to file
 uri = 'drs://hostname/opaque_id'
-info = drs.info(uri)
+info = drs_client.info(uri)
 print(info['name'])
-drs.dump(uri, info['name'])
+drs_client.dump(uri, info['name'])
 ```
 
 ### Bundles
