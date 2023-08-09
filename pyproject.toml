@@ -1,0 +1,7 @@
+[build-system]
+requires = ["pbr>=5.7.0", "setuptools>=61.0", "wheel"]
+build-backend = "pbr.build"
+
+[project]
+name = "drs-client"
+version = "0.1.0"
